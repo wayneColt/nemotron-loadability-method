@@ -3,7 +3,7 @@
 The trained rank-32 LoRA adapter (`adapter_model.safetensors`, ~4.24 GB) is **not stored in git**
 (GitHub is not a weight host). It is published separately under **CC BY 4.0**:
 
-- **Hosted at:** _[placeholder — Bob: paste the Kaggle Model or Hugging Face URL]_
+- **Hosted at:** https://www.kaggle.com/models/bbobwayne/nemotron-loadability-method-adapter
 
 `adapter_config.json` (the loadability contract, in situ) **is** in this repo so the method is
 inspectable without the multi-gigabyte tensor.
