@@ -26,6 +26,9 @@
   "lora_ga_config": null,
   "megatron_config": null,
   "megatron_core": "megatron.core",
+  "modules_to_save": [
+    "lm_head"
+  ],
   "peft_type": "LORA",
   "peft_version": "0.19.1",
   "qalora_group_size": 16,
@@ -40,8 +43,7 @@
     "q_proj",
     "up_proj",
     "o_proj",
-    "down_proj",
-    "lm_head"
+    "down_proj"
   ],
   "target_parameters": [
     "mlp.experts.gate_up_proj",
