@@ -1,0 +1,25 @@
+# ──────────────────────────────────────────────────────────────────────────
+# Large model weights — NEVER commit. Adapter weights (~4.24 GB) are hosted
+# separately (see WEIGHTS.md). GitHub is not a weight host.
+# ──────────────────────────────────────────────────────────────────────────
+*.safetensors
+*.bin
+*.gguf
+*.ckpt
+*.zip
+checkpoints/
+runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+*.swp

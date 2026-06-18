@@ -1,0 +1,9 @@
+unsloth
+trl>=0.13
+peft>=0.18.1
+transformers>=4.46
+accelerate>=1.0
+bitsandbytes>=0.45
+datasets
+pandas
+# scoring harness (NVIDIA side): vllm>=0.17.0
